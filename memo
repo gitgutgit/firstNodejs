@@ -1,0 +1,16 @@
+pm2 start main.js
+pm2 monit
+pm2 list
+pm2 stop
+pm2 start main.js --watch
+pm2 log
+
+pm2 start main.js --watch --no-daemon
+pm2 start main.js --watch --ignore-watch="data/*" --no-daemon
+pm2 kill
+Api =  Application programming Interface
+
+nodejs를 끝내고 추천..
+Database,-Mongo db MYsql framework
+
+noejs awesome?
